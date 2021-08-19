@@ -31,3 +31,60 @@ label {
   text-align: center;
   font-size: large;
 }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 40%;
+  padding: 2rem 1rem;
+  color: white;
+  text-align: center;
+}
+
+.footer div {
+  margin-bottom: 0.9rem;
+}
+
+.list-non-bullet {
+  list-style: none;
+  padding-inline-start: 2px;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.2rem;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.4rem 1.2rem;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  input {
+    width: 60%;
+  }
+  #check-btn {
+    width: 80%;
+  }
+  .footer {
+    left: 5%;
+  }
+}
