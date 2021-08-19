@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 1rem;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #393e46;
+  color: #eeeeee;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+#result {
+  padding: 2rem;
+  text-align: center;
+  font-size: large;
+}
