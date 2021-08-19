@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 1rem;
   box-sizing: border-box;
-  height: 100vh;
   background-color: #393e46;
   color: #eeeeee;
 }
@@ -11,6 +10,20 @@ body {
   width: 50%;
   margin: auto;
   text-align: center;
+}
+
+label {
+  display: block;
+  margin: 1rem;
+  font-size: larger;
+  padding: 1rem;
+}
+
+#check-btn {
+  display: block;
+  width: 20%;
+  margin: 1rem auto;
+  padding: 0.2rem;
 }
 
 #result {
